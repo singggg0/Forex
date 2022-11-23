@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:background="@color/bg4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_symbol"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="@dimen/watchlist_item_padding"
+            android:paddingVertical="@dimen/watchlist_item_padding_vertical"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            tools:text="USDZWD" />
+
+        <TextView
+            android:id="@+id/tv_change"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="@dimen/watchlist_item_padding"
+            android:paddingVertical="@dimen/watchlist_item_padding_vertical"
+            android:textSize="16sp"
+            tools:text="0.0%"
+            tools:textColor="@color/rise_color" />
+
+        <TextView
+            android:id="@+id/tv_sell"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="@dimen/watchlist_item_padding"
+            android:paddingVertical="@dimen/watchlist_item_padding_vertical"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            tools:text="367.12" />
+
+        <TextView
+            android:id="@+id/tv_buy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="@dimen/watchlist_item_padding"
+            android:paddingVertical="@dimen/watchlist_item_padding_vertical"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            tools:text="362.19" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg5" />
+
+</LinearLayout>
